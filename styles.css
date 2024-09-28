@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(95, 163, 185, 1);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar img {
+    height: 40px;
+    margin-right: 20px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: white;
+}
+.navbar li .selected {
+    padding: 5px;
+    background-color: rgb(16, 67, 83);
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 32px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+}
+.page-content {
+    margin-top: 80px;
+}
+.text-block {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(95, 163, 185);
+    color: white;
+}
+.left-block {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    float: left;
+    background-color: rgb(26, 108, 133);
+    color: white;
+}
+.right-block {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    float: right;
+    background-color: rgb(16, 67, 83);
+    color: white;
+}
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
