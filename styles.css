@@ -70,7 +70,9 @@
     justify-content: space-between;
     align-items: flex-start;
 }
-.image-block img {
+
+img {
+    flex: 1;
     max-width: 100%;
     height: auto;
     display: block;
