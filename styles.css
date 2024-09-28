@@ -43,9 +43,11 @@
 .page-content {
     margin-top: 80px;
 }
-.text-block {
-    margin: 20px;
-    padding: 20px;
+
+.text-block .image-block {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
     background-color: rgb(95, 163, 185);
     color: white;
 }
@@ -72,6 +74,7 @@
 }
 
 img {
+    display: flex;
     flex: 1;
     max-width: 100%;
     height: auto;
