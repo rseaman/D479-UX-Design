@@ -54,7 +54,7 @@
 .left-block {
     margin: 20px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     float: left;
     background-color: rgb(26, 108, 133);
     color: white;
@@ -62,7 +62,7 @@
 .right-block {
     margin: 20px;
     padding: 20px;
-    width: 40%;
+    width: 45%;
     float: right;
     background-color: rgb(16, 67, 83);
     color: white;
@@ -74,9 +74,13 @@
 }
 
 img {
-    display: flex;
-    flex: 1;
     max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.page-content > img {
+    width: 100%;
     height: auto;
     display: block;
 }
